@@ -13,6 +13,11 @@
 		8871D46F28FD7DC3000EDB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8871D46D28FD7DC3000EDB84 /* Main.storyboard */; };
 		8871D47128FD7DC4000EDB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8871D47028FD7DC4000EDB84 /* Assets.xcassets */; };
 		8871D47428FD7DC4000EDB84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8871D47228FD7DC4000EDB84 /* LaunchScreen.storyboard */; };
+		8871D47C28FD7E26000EDB84 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D47B28FD7E26000EDB84 /* Exercise.swift */; };
+		8871D47E28FD7EA6000EDB84 /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D47D28FD7EA6000EDB84 /* Jumping.swift */; };
+		8871D48028FD7F22000EDB84 /* Squats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D47F28FD7F22000EDB84 /* Squats.swift */; };
+		8871D48328FD7FD4000EDB84 /* FactoryExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D48228FD7FD4000EDB84 /* FactoryExercise.swift */; };
+		8871D48628FD84CF000EDB84 /* BenchPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8871D48528FD84CF000EDB84 /* BenchPress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8871D47028FD7DC4000EDB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8871D47328FD7DC4000EDB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8871D47528FD7DC4000EDB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8871D47B28FD7E26000EDB84 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		8871D47D28FD7EA6000EDB84 /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
+		8871D47F28FD7F22000EDB84 /* Squats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squats.swift; sourceTree = "<group>"; };
+		8871D48228FD7FD4000EDB84 /* FactoryExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryExercise.swift; sourceTree = "<group>"; };
+		8871D48528FD84CF000EDB84 /* BenchPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchPress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,32 @@
 			children = (
 				8871D46728FD7DC3000EDB84 /* AppDelegate.swift */,
 				8871D46928FD7DC3000EDB84 /* SceneDelegate.swift */,
+				8871D48428FD8190000EDB84 /* Factory */,
+				8871D48128FD7F5C000EDB84 /* Exercise */,
 				8871D46B28FD7DC3000EDB84 /* ViewController.swift */,
 				8871D46D28FD7DC3000EDB84 /* Main.storyboard */,
 				8871D47028FD7DC4000EDB84 /* Assets.xcassets */,
 				8871D47228FD7DC4000EDB84 /* LaunchScreen.storyboard */,
 				8871D47528FD7DC4000EDB84 /* Info.plist */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		8871D48128FD7F5C000EDB84 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				8871D47B28FD7E26000EDB84 /* Exercise.swift */,
+				8871D47D28FD7EA6000EDB84 /* Jumping.swift */,
+				8871D47F28FD7F22000EDB84 /* Squats.swift */,
+				8871D48528FD84CF000EDB84 /* BenchPress.swift */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		8871D48428FD8190000EDB84 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				8871D48228FD7FD4000EDB84 /* FactoryExercise.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8871D48628FD84CF000EDB84 /* BenchPress.swift in Sources */,
 				8871D46C28FD7DC3000EDB84 /* ViewController.swift in Sources */,
+				8871D47C28FD7E26000EDB84 /* Exercise.swift in Sources */,
+				8871D48028FD7F22000EDB84 /* Squats.swift in Sources */,
 				8871D46828FD7DC3000EDB84 /* AppDelegate.swift in Sources */,
+				8871D47E28FD7EA6000EDB84 /* Jumping.swift in Sources */,
 				8871D46A28FD7DC3000EDB84 /* SceneDelegate.swift in Sources */,
+				8871D48328FD7FD4000EDB84 /* FactoryExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
